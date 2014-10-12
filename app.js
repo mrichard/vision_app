@@ -1,9 +1,10 @@
 var express = require( 'express' );
 var http = require( 'http' );
+var config = require( './config/config');
 var app = express();
 
 // set port
-app.set( 'port', 3000 );
+app.set( 'port', config.get( "express:port" ) );
 
 // create heatbeat route
 app.route( '/heartbeat' )
