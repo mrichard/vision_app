@@ -13,7 +13,7 @@ var app = express();
 app.set( 'port', config.get( "express:port" ) );
 
 // logging
-app.use( logger( config.get( "logger:level" ) || "dev", { immediate: true }) );
+app.use( logger( config.get( "logger:level" ), { immediate: true }) );
 
 // create heatbeat route
 app.use( '/heartbeat', heartbeat );

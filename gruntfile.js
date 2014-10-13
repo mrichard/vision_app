@@ -27,8 +27,30 @@ module.exports = function( grunt ) {
 					}
 				}
 			}
-		}
+		},
+
+		mocha_istanbul: {
+			coverage: {
+				src: 'test/*.js'
+			}
+		},
+		istanbul_check_coverage: {
+			default: {
+				options: {
+					coverageFolder: 'coverage*', // will check both coverage folders and merge the coverage results
+					check: {
+						lines: 80,
+						statements: 80
+					}
+				}
+			}
+        }
 	});
+
+	grunt.event.on('coverage', function(lcovFileContents, done){
+        // Check below
+        done();
+    });
 
 	grunt.registerTask( 'test', [ 
 		'env:test',
@@ -37,6 +59,6 @@ module.exports = function( grunt ) {
 
 	grunt.registerTask( 'coverage', [ 
 		'env:coverage',
-		'cafemocha:coverage'
+		'mocha_istanbul:coverage'
 	]);
 }
