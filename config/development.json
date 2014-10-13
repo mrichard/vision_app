@@ -1,5 +1,11 @@
 {
   "express": {
     "port": 3000
+  },
+  "logger": {
+  	"level": "dev",
+  	"filename": "logs/run.log",
+  	"maxfiles": 3,
+  	"maxsize": 1048576
   }
 }
