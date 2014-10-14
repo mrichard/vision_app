@@ -7,5 +7,10 @@
   	"filename": "logs/run.log",
   	"maxfiles": 3,
   	"maxsize": 1048576
+  },
+  "mongo": {
+    "url": "mongodb://localhost/vison",
+    "poolSize": 10,
+    "auto_reconnect": true
   }
 }
