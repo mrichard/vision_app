@@ -1,13 +1,19 @@
 var express = require( 'express' );
 var http = require( 'http' );
+var db = require( './db' );
 
 var logger = require('morgan');
+var bodyParser = require( 'body-parser' );
 
 var config = require( './config/config');
-var heartbeat = require( './routes/heartbeat' );
+
+var heartbeatRouter = require( './routes/heartbeat' );
+var projectRouter = require( './routes/project' );
 var notFound = require( './routes/notFound' );
 
 var app = express();
+
+app.use( bodyParser() );
 
 // set port
 app.set( 'port', config.get( "express:port" ) );
@@ -16,7 +22,8 @@ app.set( 'port', config.get( "express:port" ) );
 app.use( logger( config.get( "logger:level" ), { immediate: true }) );
 
 // create heatbeat route
-app.use( '/heartbeat', heartbeat );
+app.use( '/heartbeat', heartbeatRouter );
+app.use( '/project', projectRouter );
 app.use( notFound.index );
 
 // create server
