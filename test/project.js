@@ -3,6 +3,7 @@ var request = require( "supertest" );
 var assert = require( "assert" );
 var mongoose = require( "mongoose" );
 var login = require( "./login" );
+var _ = require( 'underscore' );
 
 describe( 'Vision Project API', function() {
 	var id;
@@ -46,4 +47,28 @@ describe( 'Vision Project API', function() {
 			});
 		});
 	});
+
+
+	describe( "When requesting an avaialable resource /project/:id", function() {
+		it( "should respond with 200", function( done ){
+			request( app )
+			.get( '/project/' + id)
+			.expect( 'Content-Type', /json/)
+			.expect( 200 )
+			.end( function( err, res ){
+				var returnedProject = JSON.parse( res.text );
+
+				assert.equal( returnedProject._id, id);
+				assert(_.has(returnedProject, '_id'));
+			    assert(_.has(returnedProject, 'name'));
+			    assert(_.has(returnedProject, 'user'));
+			    assert(_.has(returnedProject, 'token'));
+			    assert(_.has(returnedProject, 'created'));
+			    assert(_.has(returnedProject, 'repositories'));
+			    done();
+			})
+		});
+	});
+
+
 });

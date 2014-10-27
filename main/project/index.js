@@ -20,4 +20,13 @@ Project.prototype.post = function( name, data, callback ){
 	});
 };
 
+Project.prototype.get = function( id, callback ) {
+	var query = { "_id": id };
+	ProjectSchema.findOne( query, function( error, project ){
+		if( error ) return callback( error, null );
+
+		return callback( null, project );
+	});
+};
+
 module.exports = Project;
