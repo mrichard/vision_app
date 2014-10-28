@@ -17,7 +17,7 @@ router.post( '/', function(req, res) {
 	req.body.user = login.user;
 	req.body.token = login.token;
 
-	projectServ.post( req.body.name, req.body, function( error, project){
+	projectServ.post( req.body.name, req.body, function( error, project ){
 		if( error ) return res.status( 500 ).json( 'Internal Server Error' );
 		if( project === null ) return res.status( 409 ).json( 'Conflict' );
 
@@ -41,6 +41,30 @@ router.get( '/:id', function( req, res ){
 
 		return res.status( 200 ).json( project );
 
+	});
+});
+
+router.put( '/:id', function( req, res ){
+	logger.info( 'Put. ' + req.url );
+
+	if( S(req.body.name).isEmpty() ) {
+		return res.status( 400 ).json( 'Bad Request.' );
+	}
+
+	req.body.user = login.user;
+	req.body.token = login.token;
+
+	projectServ.put( req.params.id, req.body, function( error, project ){
+
+		if( error ) {
+			return res.status( 500 ).json( 'Internal Server Error' );
+		}
+
+		if( project == null ) {
+			return res.status(404).json( 'No Content' );
+		}
+
+		return res.status( 204 ).json( project );
 	});
 });
 

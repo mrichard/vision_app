@@ -29,4 +29,28 @@ Project.prototype.get = function( id, callback ) {
 	});
 };
 
+Project.prototype.put = function( id, data, callback ) {
+	var query = { '_id': id };
+
+	ProjectSchema.findOne( query, function( error, proj ){
+
+		if( error ) {
+			return callback( error, null );
+		}
+
+		if( proj = null ) {
+			return callback( null, null );
+		}
+
+		ProjectSchema.update( query, data, function( error, project ){
+
+			if( error ) {
+				return callback( error, null );
+			}
+
+			return callback( null, project );
+		});
+	});
+};
+
 module.exports = Project;
