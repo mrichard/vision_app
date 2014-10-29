@@ -53,4 +53,19 @@ Project.prototype.put = function( id, data, callback ) {
 	});
 };
 
+Project.prototype.delete = function deleteProjectSchema ( id, callback ) {
+	var query = { '_id': id };
+
+	ProjectSchema.findByIdAndRemove( id, function (error, proj) {
+		if( error ) {
+			callback( error, null );
+		}
+
+		return callback(null, proj);
+	})
+}
+
 module.exports = Project;
+
+
+
