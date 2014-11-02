@@ -35,7 +35,12 @@ describe( 'Vision Project API', function() {
 		};
 
 		it( "should respond with 201", function( done ) {
-			request(app).post( "/project" ).send( project ).expect( "Content-Type", /json/).expect(201).end( function( err, res ) {
+			request(app)
+			.post( "/project" )
+			.send( project )
+			.expect( "Content-Type", /json/)
+			.expect(201)
+			.end( function( err, res ) {
 				var proj = JSON.parse( res.text );
 				assert.equal( proj.name, project.name );
 				assert.equal( proj.user, project.user );
@@ -90,6 +95,27 @@ describe( 'Vision Project API', function() {
 		});
 	});
 
+	describe( "When requesting resource get all projects for user", function(){
+
+		it( "should respond with 200", function( done ){
+			request( app )
+			.get( '/project/?user=' + login.user )
+			.expect( 200 )
+			.end( function( err, res ){
+				var returnProj = _.first( JSON.parse( res.text ));
+				
+				assert( _.has( returnProj, '_id'));
+				assert( _.has( returnProj, 'name'));
+				assert( _.has( returnProj, 'user'));
+				assert( _.has( returnProj, 'token'));
+			    assert( _.has( returnProj, 'created'));
+			    assert( _.has( returnProj, 'repositories'));
+			    done();
+
+			});
+		});
+	});
+
 	describe( "When deleting an existing resource /project/:id", function(){
 
 		it( "should respond with 204", function( done ){
@@ -101,3 +127,8 @@ describe( 'Vision Project API', function() {
 
 
 });
+
+
+
+
+

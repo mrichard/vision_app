@@ -86,6 +86,23 @@ router.delete( '/:id', function deleteProject ( req, res ) {
 	})
 });
 
+router.get( '/', function getAll ( req, res ) {
+	logger.info( 'Request. ' + req.url );
+	var userId = login.user || req.query.user || req.user.id;
+
+	projectServ.all( userId, function (error, projects ) {
+		if( error ) {
+			return res.status( 500 ).json( 'Internal Server Error' );
+		}
+
+		if( projects === null ) {
+			projects = {};
+		}
+
+		return res.status( 200 ).json( projects );
+	})
+})
+
 module.exports = router;
 
 

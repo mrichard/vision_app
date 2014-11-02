@@ -65,6 +65,23 @@ Project.prototype.delete = function deleteProjectSchema ( id, callback ) {
 	})
 }
 
+Project.prototype.all = function allProjects (id, callback ) {
+	var query = { user: id };
+
+	ProjectSchema.find( query, function( error, projects ){
+
+		if( error ){
+			return callback( error, null );
+		}
+
+		if( projects === null ) {
+			return callback( null. null );
+		}
+
+		return callback( null, projects );
+	});
+}
+
 module.exports = Project;
 
 

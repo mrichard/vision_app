@@ -7,10 +7,6 @@ var bodyParser = require( 'body-parser' );
 
 var config = require( './config/config');
 
-var heartbeatRouter = require( './routes/heartbeat' );
-var projectRouter = require( './routes/project' );
-var notFound = require( './routes/notFound' );
-
 var app = express();
 
 app.use( bodyParser() );
@@ -21,10 +17,8 @@ app.set( 'port', config.get( "express:port" ) );
 // logging
 app.use( logger( config.get( "logger:level" ), { immediate: true }) );
 
-// create heatbeat route
-app.use( '/heartbeat', heartbeatRouter );
-app.use( '/project', projectRouter );
-app.use( notFound.index );
+// mount routes
+require( './routes')( app );
 
 // create server
 app.listen( app.get('port'), function() {
