@@ -270,3 +270,81 @@
 {"level":"info","message":"IN PROJECT SERV PUT CALLBACK","timestamp":"2014-11-02T22:20:56.549Z"}
 {"level":"info","message":"Request. /?user=mrichard","timestamp":"2014-11-02T22:20:56.555Z"}
 {"level":"info","message":"Delete. /5456ae481af84d1276bb2520","timestamp":"2014-11-02T22:20:56.560Z"}
+{"level":"error","message":"404: Page Not Found!!","timestamp":"2014-11-10T01:16:24.061Z"}
+{"level":"info","message":"Post.New Project","timestamp":"2014-11-10T01:16:24.253Z"}
+{"level":"info","message":"Get. /546011e806bb5d00002c3338","timestamp":"2014-11-10T01:16:24.268Z"}
+{"level":"info","message":"Put. /546011e806bb5d00002c3339","timestamp":"2014-11-10T01:16:24.273Z"}
+{"level":"info","message":"IN PROJECT SERV PUT CALLBACK","timestamp":"2014-11-10T01:16:24.277Z"}
+{"level":"info","message":"Request. /?user=mrichard","timestamp":"2014-11-10T01:16:24.282Z"}
+{"level":"info","message":"Delete. /546011e806bb5d00002c333b","timestamp":"2014-11-10T01:16:24.286Z"}
+{"level":"error","message":"404: Page Not Found!!","timestamp":"2014-11-10T01:17:14.469Z"}
+{"level":"info","message":"Post.New Project","timestamp":"2014-11-10T01:17:14.489Z"}
+{"level":"info","message":"Get. /5460121a4939100000ee49ab","timestamp":"2014-11-10T01:17:14.503Z"}
+{"level":"info","message":"Put. /5460121a4939100000ee49ac","timestamp":"2014-11-10T01:17:14.508Z"}
+{"level":"info","message":"IN PROJECT SERV PUT CALLBACK","timestamp":"2014-11-10T01:17:14.512Z"}
+{"level":"info","message":"Request. /?user=mrichard","timestamp":"2014-11-10T01:17:14.517Z"}
+{"level":"info","message":"Delete. /5460121a4939100000ee49ae","timestamp":"2014-11-10T01:17:14.521Z"}
+{"level":"error","message":"404: Page Not Found!!","timestamp":"2014-11-10T01:17:42.108Z"}
+{"level":"info","message":"Post.New Project","timestamp":"2014-11-10T01:17:42.127Z"}
+{"level":"info","message":"Get. /5460123605132900007d0b85","timestamp":"2014-11-10T01:17:42.142Z"}
+{"level":"info","message":"Put. /5460123605132900007d0b86","timestamp":"2014-11-10T01:17:42.148Z"}
+{"level":"info","message":"IN PROJECT SERV PUT CALLBACK","timestamp":"2014-11-10T01:17:42.152Z"}
+{"level":"info","message":"Request. /?user=mrichard","timestamp":"2014-11-10T01:17:42.156Z"}
+{"level":"info","message":"Delete. /5460123605132900007d0b88","timestamp":"2014-11-10T01:17:42.161Z"}
+{"level":"info","message":"Github Request./","timestamp":"2014-11-10T01:23:24.349Z"}
+{"level":"error","message":"404: Page Not Found!!","timestamp":"2014-11-10T01:23:25.114Z"}
+{"level":"info","message":"Post.New Project","timestamp":"2014-11-10T01:23:25.129Z"}
+{"level":"info","message":"Get. /5460138da5d384000011ca8a","timestamp":"2014-11-10T01:23:25.141Z"}
+{"level":"info","message":"Put. /5460138da5d384000011ca8b","timestamp":"2014-11-10T01:23:25.148Z"}
+{"level":"info","message":"IN PROJECT SERV PUT CALLBACK","timestamp":"2014-11-10T01:23:25.151Z"}
+{"level":"info","message":"Request. /?user=mrichard","timestamp":"2014-11-10T01:23:25.156Z"}
+{"level":"info","message":"Delete. /5460138da5d384000011ca8d","timestamp":"2014-11-10T01:23:25.160Z"}
+{"level":"info","message":"Github Request./","timestamp":"2014-11-10T01:23:53.680Z"}
+{"level":"error","message":"404: Page Not Found!!","timestamp":"2014-11-10T01:23:54.865Z"}
+{"level":"info","message":"Post.New Project","timestamp":"2014-11-10T01:23:54.880Z"}
+{"level":"info","message":"Get. /546013aaeef3e20000cd41ad","timestamp":"2014-11-10T01:23:54.890Z"}
+{"level":"info","message":"Put. /546013aaeef3e20000cd41ae","timestamp":"2014-11-10T01:23:54.897Z"}
+{"level":"info","message":"IN PROJECT SERV PUT CALLBACK","timestamp":"2014-11-10T01:23:54.901Z"}
+{"level":"info","message":"Request. /?user=mrichard","timestamp":"2014-11-10T01:23:54.905Z"}
+{"level":"info","message":"Delete. /546013aaeef3e20000cd41b0","timestamp":"2014-11-10T01:23:54.911Z"}
+{"level":"info","message":"Github Request./","timestamp":"2014-11-10T01:25:10.795Z"}
+{"level":"error","message":"404: Page Not Found!!","timestamp":"2014-11-10T01:25:11.510Z"}
+{"level":"info","message":"Post.New Project","timestamp":"2014-11-10T01:25:11.523Z"}
+{"level":"info","message":"Get. /546013f799052600005252da","timestamp":"2014-11-10T01:25:11.553Z"}
+{"level":"info","message":"Put. /546013f799052600005252db","timestamp":"2014-11-10T01:25:11.561Z"}
+{"level":"info","message":"IN PROJECT SERV PUT CALLBACK","timestamp":"2014-11-10T01:25:11.565Z"}
+{"level":"info","message":"Request. /?user=mrichard","timestamp":"2014-11-10T01:25:11.569Z"}
+{"level":"info","message":"Delete. /546013f799052600005252dd","timestamp":"2014-11-10T01:25:11.574Z"}
+{"level":"info","message":"Github Request.[object Object]","timestamp":"2014-11-10T01:28:35.299Z"}
+{"level":"error","message":"404: Page Not Found!!","timestamp":"2014-11-10T01:28:35.990Z"}
+{"level":"info","message":"Post.New Project","timestamp":"2014-11-10T01:28:36.005Z"}
+{"level":"info","message":"Get. /546014c444d8a70000ee02b7","timestamp":"2014-11-10T01:28:36.016Z"}
+{"level":"info","message":"Put. /546014c444d8a70000ee02b8","timestamp":"2014-11-10T01:28:36.023Z"}
+{"level":"info","message":"IN PROJECT SERV PUT CALLBACK","timestamp":"2014-11-10T01:28:36.027Z"}
+{"level":"info","message":"Request. /?user=mrichard","timestamp":"2014-11-10T01:28:36.031Z"}
+{"level":"info","message":"Delete. /546014c444d8a70000ee02ba","timestamp":"2014-11-10T01:28:36.036Z"}
+{"level":"info","message":"Github Request./","timestamp":"2014-11-10T01:29:12.931Z"}
+{"_readableState":{"highWaterMark":16384,"buffer":[],"length":0,"pipes":null,"pipesCount":0,"flowing":false,"ended":false,"endEmitted":false,"reading":false,"calledRead":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"objectMode":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_maxListeners":10,"socket":{"_connecting":false,"_handle":{"fd":22,"writeQueueSize":0,"owner":{"$ref":"$[\"socket\"]"},"reading":true},"_readableState":{"highWaterMark":16384,"buffer":[],"length":0,"pipes":null,"pipesCount":0,"flowing":false,"ended":false,"endEmitted":false,"reading":true,"calledRead":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"objectMode":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{"drain":[null,null],"close":[null,null]},"_maxListeners":10,"_writableState":{"highWaterMark":16384,"objectMode":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"decodeStrings":false,"defaultEncoding":"utf8","length":0,"writing":false,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"buffer":[],"errorEmitted":false},"writable":true,"allowHalfOpen":true,"destroyed":false,"bytesRead":166,"_bytesDispatched":0,"_pendingData":null,"_pendingEncoding":"","server":{"domain":null,"_events":{},"_maxListeners":10,"_connections":1,"connections":1,"_handle":{"fd":20,"writeQueueSize":0,"owner":{"$ref":"$[\"socket\"][\"server\"]"}},"_usingSlaves":false,"_slaves":[],"allowHalfOpen":true,"httpAllowHalfOpen":false,"timeout":120000,"_connectionKey":"4:0.0.0.0:0"},"_idleTimeout":120000,"_idleNext":{"_idleNext":{"$ref":"$[\"socket\"]"},"_idlePrev":{"$ref":"$[\"socket\"]"}},"_idlePrev":{"$ref":"$[\"socket\"][\"_idleNext\"]"},"_idleStart":1415582952926,"_monotonicStartTime":339236848,"parser":{"_headers":[],"_url":"","socket":{"$ref":"$[\"socket\"]"},"incoming":{"$ref":"$"},"maxHeaderPairs":2000},"_paused":false,"_httpMessage":{"domain":null,"_events":{},"_maxListeners":10,"output":[],"outputEncodings":[],"writable":true,"_last":false,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":true,"sendDate":true,"_headerSent":false,"_header":"","_hasBody":true,"_trailer":"","finished":false,"_hangupClose":false,"socket":{"$ref":"$[\"socket\"]"},"connection":{"$ref":"$[\"socket\"]"},"_headers":{"x-powered-by":"Express"},"_headerNames":{"x-powered-by":"X-Powered-By"},"req":{"$ref":"$"},"locals":{}},"_peername":{"address":"127.0.0.1","family":"IPv4","port":57676}},"connection":{"$ref":"$[\"socket\"]"},"httpVersion":"1.1","complete":false,"headers":{"host":"127.0.0.1:57675","accept-encoding":"gzip, deflate","user-agent":"node-superagent/0.19.0","connection":"close"},"trailers":{},"_pendings":[],"_pendingIndex":0,"url":"/","method":"GET","statusCode":null,"client":{"$ref":"$[\"socket\"]"},"_consuming":false,"_dumped":false,"httpVersionMajor":1,"httpVersionMinor":1,"upgrade":false,"baseUrl":"/project/546014e8c4b83600007e858d/repos","originalUrl":"/project/546014e8c4b83600007e858d/repos","_parsedUrl":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":null,"pathname":"/","path":"/","href":"/","_raw":"/"},"params":{"id":"546014e8c4b83600007e858d"},"query":{},"res":{"$ref":"$[\"socket\"][\"_httpMessage\"]"},"body":{},"_startAt":[339236,850926957],"_startTime":"2014-11-10T01:29:12.928Z","_remoteAddress":"127.0.0.1","route":{"path":"/","stack":[{"name":"<anonymous>","keys":[],"regexp":{},"method":"get"}],"methods":{"get":true}},"level":"info","message":"","timestamp":"2014-11-10T01:29:12.946Z"}
+{"level":"error","message":"404: Page Not Found!!","timestamp":"2014-11-10T01:29:14.016Z"}
+{"level":"info","message":"Post.New Project","timestamp":"2014-11-10T01:29:14.031Z"}
+{"level":"info","message":"Get. /546014eac4b83600007e8590","timestamp":"2014-11-10T01:29:14.043Z"}
+{"level":"info","message":"Put. /546014eac4b83600007e8591","timestamp":"2014-11-10T01:29:14.048Z"}
+{"level":"info","message":"IN PROJECT SERV PUT CALLBACK","timestamp":"2014-11-10T01:29:14.051Z"}
+{"level":"info","message":"Request. /?user=mrichard","timestamp":"2014-11-10T01:29:14.056Z"}
+{"level":"info","message":"Delete. /546014eac4b83600007e8593","timestamp":"2014-11-10T01:29:14.061Z"}
+{"level":"info","message":"Github Request./","timestamp":"2014-11-10T01:31:12.021Z"}
+{"level":"error","message":"404: Page Not Found!!","timestamp":"2014-11-10T01:31:12.710Z"}
+{"level":"info","message":"Post.New Project","timestamp":"2014-11-10T01:31:12.723Z"}
+{"level":"info","message":"Get. /54601560648f670000dcad4d","timestamp":"2014-11-10T01:31:12.734Z"}
+{"level":"info","message":"Put. /54601560648f670000dcad4e","timestamp":"2014-11-10T01:31:12.739Z"}
+{"level":"info","message":"IN PROJECT SERV PUT CALLBACK","timestamp":"2014-11-10T01:31:12.742Z"}
+{"level":"info","message":"Request. /?user=mrichard","timestamp":"2014-11-10T01:31:12.747Z"}
+{"level":"info","message":"Delete. /54601560648f670000dcad50","timestamp":"2014-11-10T01:31:12.754Z"}
+{"level":"info","message":"Github Request./","timestamp":"2014-11-10T01:32:51.774Z"}
+{"level":"error","message":"404: Page Not Found!!","timestamp":"2014-11-10T01:32:52.444Z"}
+{"level":"info","message":"Post.New Project","timestamp":"2014-11-10T01:32:52.458Z"}
+{"level":"info","message":"Get. /546015c49db1d300009434f1","timestamp":"2014-11-10T01:32:52.469Z"}
+{"level":"info","message":"Put. /546015c49db1d300009434f2","timestamp":"2014-11-10T01:32:52.475Z"}
+{"level":"info","message":"IN PROJECT SERV PUT CALLBACK","timestamp":"2014-11-10T01:32:52.479Z"}
+{"level":"info","message":"Request. /?user=mrichard","timestamp":"2014-11-10T01:32:52.483Z"}
+{"level":"info","message":"Delete. /546015c49db1d300009434f4","timestamp":"2014-11-10T01:32:52.488Z"}
