@@ -8,6 +8,6 @@ module.exports = function (app) {
 	// mount routes
 	app.use( '/heartbeat', heartbeatRouter );
 	app.use( '/project', projectRouter );
-	app.use( '/project/:id/repos', githubRouter );
+	app.use( '/project/:id', githubRouter );
 	app.use( notFound.index );
 }

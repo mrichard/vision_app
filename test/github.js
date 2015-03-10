@@ -38,7 +38,6 @@ describe( 'vision github api', function(){
 			.expect( 200 )
 			.end( function( err, res ){
 				var repo = _.first( JSON.parse(res.text) );
-				console.log( JSON.parse(res.text) );
 				assert( _.has(repo, 'id') );
 				assert( _.has(repo, 'name') );
 				assert( _.has(repo, 'description') );

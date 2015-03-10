@@ -5,7 +5,7 @@ var logger = require( "../logger" );
 var Project = new ProjectService();
 var router = express.Router({ mergeParams: true });
 
-router.get( '/', function (req, res) {
+router.get( '/repos', function (req, res) {
 	logger.info('Github Request.' + req.url);
 
 	Project.repos( req.params.id, function(error, repos){
